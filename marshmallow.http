@@ -1,0 +1,25 @@
+GET http://127.0.0.1:12124/docs?type=foo
+
+###
+GET http://127.0.0.1:12124/docs?type=foo&id=1
+
+###
+GET http://127.0.0.1:12124/docs
+
+###
+POST http://127.0.0.1:12124/docs
+Content-Type: application/json
+
+{
+  "type": "foo",
+  "text": "asdasda"
+}
+
+###
+POST http://127.0.0.1:12124/docs/custom
+Content-Type: application/json
+
+{
+  "foo": 23,
+  "bar": "bar"
+}

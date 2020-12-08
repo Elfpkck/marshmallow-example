@@ -1,0 +1,5 @@
+flask-smorest==0.25.0
+marshmallow-dataclass[enum,union]==8.3.0
+flask-marshmallow==0.14.0
+Flask-SQLAlchemy==2.4.4
+marshmallow-sqlalchemy==0.24.1
